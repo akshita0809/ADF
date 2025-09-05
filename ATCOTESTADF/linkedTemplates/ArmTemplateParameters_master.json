@@ -5,6 +5,9 @@
 		"factoryName": {
 			"value": "ATCOTESTADF"
 		},
+		"pipeline1_properties_0_typeProperties_waitTimeInSeconds": {
+			"value": 1
+		},
 		"containerUri": {
 			"value": ""
 		},

@@ -6,6 +6,10 @@
 			"type": "string",
 			"metadata": "Data Factory name",
 			"defaultValue": "ATCOTESTADF"
+		},
+		"pipeline1_properties_0_typeProperties_waitTimeInSeconds": {
+			"type": "int",
+			"defaultValue": 1
 		}
 	},
 	"variables": {
@@ -24,7 +28,7 @@
 						"dependsOn": [],
 						"userProperties": [],
 						"typeProperties": {
-							"waitTimeInSeconds": 1
+							"waitTimeInSeconds": "[parameters('pipeline1_properties_0_typeProperties_waitTimeInSeconds')]"
 						}
 					}
 				],
